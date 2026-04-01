@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Heart, Mail, Phone, MapPin, Facebook, Twitter, Instagram, Leaf } from 'lucide-react';
+import API from "./api";
 
+API.get("/api/users");
 const Footer = () => {
   return (
     <footer className="bg-gray-900 text-white">

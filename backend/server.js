@@ -93,3 +93,8 @@ module.exports = app;
 app.get("/", (req, res) => {
   res.send("Backend is running successfully 🚀");
 });
+const cors = require("cors");
+
+app.use(cors({
+  origin: "*", // or your frontend URL later
+}));
