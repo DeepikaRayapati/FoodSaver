@@ -138,3 +138,17 @@ __tests__/
 # Lock files (keep one)
 package-lock.json
 yarn.lock
+# Sensitive env files (any folder)
+**/.env
+**/.env.*
+
+# Dependencies (any folder)
+**/node_modules/
+
+# Build artifacts
+**/frontend/build/
+**/dist/
+
+# Uploads / runtime files
+**/uploads/
+**/public/uploads/
