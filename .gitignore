@@ -138,6 +138,13 @@ __tests__/
 # Lock files (keep one)
 package-lock.json
 yarn.lock
+
+# Additional recursive ignores for nested project structure
+**/.env
+**/.env.*
+**/uploads/
+**/public/uploads/
+**/frontend/build/
 # Sensitive env files (any folder)
 **/.env
 **/.env.*
