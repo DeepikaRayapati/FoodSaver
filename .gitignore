@@ -90,7 +90,6 @@ dist
 
 # Gatsby files
 .cache/
-public
 
 # Storybook build outputs
 .out
@@ -136,9 +135,6 @@ package-lock.json
 yarn.lock
 
 # Additional recursive ignores for nested project structure
-**/.env
-**/.env.*
-**/frontend/build/
 # Sensitive env files (any folder)
 **/.env
 **/.env.*
