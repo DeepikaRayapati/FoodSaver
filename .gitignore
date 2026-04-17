@@ -119,10 +119,6 @@ temp/
 ehthumbs.db
 Thumbs.db
 
-# Uploads
-/backend/uploads/
-/frontend/public/uploads/
-
 # Database
 *.db
 *.sqlite
@@ -142,8 +138,6 @@ yarn.lock
 # Additional recursive ignores for nested project structure
 **/.env
 **/.env.*
-**/uploads/
-**/public/uploads/
 **/frontend/build/
 # Sensitive env files (any folder)
 **/.env
@@ -155,7 +149,3 @@ yarn.lock
 # Build artifacts
 **/frontend/build/
 **/dist/
-
-# Uploads / runtime files
-**/uploads/
-**/public/uploads/
